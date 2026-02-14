@@ -1,0 +1,1 @@
+{"tests": [{"name": "Upload OPTIONS", "method": "OPTIONS", "path": "/", "expectedStatus": 200}, {"name": "Upload no data", "method": "POST", "path": "/", "body": {}, "expectedStatus": 400, "expectedBody": {"error": "string"}, "bodyMatcher": "partial"}]}

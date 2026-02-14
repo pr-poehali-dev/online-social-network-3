@@ -1,0 +1,1 @@
+{"tests": [{"name": "API OPTIONS", "method": "OPTIONS", "path": "/", "expectedStatus": 200}, {"name": "Get feed", "method": "GET", "path": "/?action=feed", "expectedStatus": 200, "expectedBody": [], "bodyMatcher": "partial"}, {"name": "Search users", "method": "GET", "path": "/?action=search&q=online", "expectedStatus": 200, "expectedBody": [], "bodyMatcher": "partial"}]}
